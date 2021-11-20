@@ -16,7 +16,7 @@ import { CryptoState } from "../../CryptoContext";
 const style = {
   position: "absolute",
   top: "50%",
-  left: "60%",
+  left: "55%",
   maxWidth: 400,
   transform: "translate(-50%, -50%)",
   color: "white",
@@ -90,7 +90,7 @@ export default function AuthModal() {
           Login
         </Button>
         <Modal
-          style={{ width: "80%" }}
+          style={{ width: "90%" }}
           open={open}
           onClose={handleClose}
           aria-labelledby="modal-modal-title"
